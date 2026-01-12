@@ -12,10 +12,12 @@ sys.path.insert(0, str(PROJECT_ROOT))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'YOUVA'
-copyright = '2026, Rohit Kumar'
-author = 'Rohit Kumar'
-release = '0.0.1'
+project = "YOUVA"
+copyright = "2026, Rohit Kumar"
+author = "Rohit Kumar"
+version = "0.1"
+release = "0.1.0"
+
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

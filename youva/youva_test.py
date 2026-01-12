@@ -40,6 +40,7 @@ Approximate value of π.
 # Custom exceptions
 # ============================================================
 
+
 class YouvaError(Exception):
     """
     Base exception for all Youva-related errors.
@@ -55,6 +56,7 @@ class InvalidInputError(YouvaError):
 # ============================================================
 # Module-level functions
 # ============================================================
+
 
 def add(a: int, b: int) -> int:
     """
@@ -109,6 +111,7 @@ def mean(values: List[float]) -> float:
 # ============================================================
 # Base class
 # ============================================================
+
 
 class Processor:
     """
@@ -169,6 +172,7 @@ class Processor:
 # Derived class (inheritance test)
 # ============================================================
 
+
 class NumberProcessor(Processor):
     """
     Processor specialized for numeric data.
@@ -216,6 +220,7 @@ class NumberProcessor(Processor):
 # Data container class
 # ============================================================
 
+
 class Config:
     """
     Configuration container for Youva.
@@ -262,6 +267,7 @@ class Config:
 # ============================================================
 # Private function (noise test)
 # ============================================================
+
 
 def _debug_only_function() -> None:
     """
