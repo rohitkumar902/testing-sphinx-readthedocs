@@ -44,9 +44,6 @@ html_theme_options = {
     "source_directory": "docs/source/",
 }
 
-# Theme overrides
-# html_css_files = ["css/furo_override.css"]
-
 autoapi_type = "python"
 
 # Point to your source directories
@@ -58,8 +55,6 @@ autoapi_dirs = [
 autoapi_keep_files = True
 
 autoapi_generate_package_index = False
-
-autoapi_template_dir = "_templates/autoapi"
 
 # What AutoAPI should include
 autoapi_options = [
