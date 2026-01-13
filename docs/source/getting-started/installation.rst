@@ -11,7 +11,7 @@ Detailed Instructions
 ---------------------
 
 This guide provides a deep dive into setting up your local environment and 
-contributing to the Project YOUVA documentation suite.
+contributing to the Project YOUVA documentation.
 
 Phase 1: Environment Setup
 --------------------------
