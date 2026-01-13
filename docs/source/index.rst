@@ -24,5 +24,6 @@ YOUVA documentation
    :maxdepth: 1
    :caption: Development
 
+   development/contribution
    development/license
 
