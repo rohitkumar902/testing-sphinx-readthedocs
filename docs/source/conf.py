@@ -18,7 +18,6 @@ author = "Rohit Kumar"
 version = "0.1"
 release = "0.1.0"
 
-
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
@@ -57,6 +56,8 @@ autoapi_dirs = [
 autoapi_keep_files = True
 
 autoapi_generate_package_index = False
+
+autoapi_template_dir = "_templates/autoapi"
 
 # What AutoAPI should include
 autoapi_options = [
