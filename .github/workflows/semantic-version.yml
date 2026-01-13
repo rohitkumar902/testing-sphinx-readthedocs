@@ -29,3 +29,11 @@ jobs:
           echo "Minor: ${{ steps.semver.outputs.minor }}"
           echo "Patch: ${{ steps.semver.outputs.patch }}"
           echo "Version tag: ${{ steps.semver.outputs.version_tag }}"
+          echo "Version tag: ${{ steps.semver.outputs.version_tag }}"
+          echo "Changed: ${{ steps.semver.outputs.changed }}"
+          
+      - name: Create tag
+        if: steps.semver.outputs.changed == 'true'
+        run: |
+          git tag ${{ steps.semver.outputs.version_tag }}
+          git push origin ${{ steps.semver.outputs.version_tag }}
