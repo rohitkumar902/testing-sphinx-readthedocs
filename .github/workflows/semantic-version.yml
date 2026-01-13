@@ -1,0 +1,32 @@
+name: Semantic Version Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  semver-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # REQUIRED for tags & history
+
+      - name: Calculate semantic version
+        id: semver
+        uses: paulhatch/semantic-version@v5.4.0
+        with:
+          tag_prefix: "v"
+          major_pattern: "/!:|BREAKING CHANGE:/"
+          minor_pattern: "^feat"
+          patch_pattern: "^fix"
+
+      - name: Print version results
+        run: |
+          echo "Calculated version: ${{ steps.semver.outputs.version }}"
+          echo "Major: ${{ steps.semver.outputs.major }}"
+          echo "Minor: ${{ steps.semver.outputs.minor }}"
+          echo "Patch: ${{ steps.semver.outputs.patch }}"
+          echo "Version tag: ${{ steps.semver.outputs.version_tag }}"
