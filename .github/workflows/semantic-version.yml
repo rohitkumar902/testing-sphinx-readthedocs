@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   semver-test:
     runs-on: ubuntu-latest
@@ -31,7 +34,7 @@ jobs:
           echo "Version tag: ${{ steps.semver.outputs.version_tag }}"
           echo "Version tag: ${{ steps.semver.outputs.version_tag }}"
           echo "Changed: ${{ steps.semver.outputs.changed }}"
-          
+
       - name: Create tag
         if: steps.semver.outputs.changed == 'true'
         run: |
