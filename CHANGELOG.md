@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.7 (2026-01-14)
+
+### Bug Fixes
+
+- Update pyproject and changelog for testing
+  ([`0ff6993`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/0ff6993d3f9599fb31a8df467041f40e4fc3b173))
+
+
 ## v0.1.6 (2026-01-14)
 
 ### Bug Fixes
