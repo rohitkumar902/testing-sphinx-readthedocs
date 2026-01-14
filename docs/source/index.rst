@@ -27,4 +27,4 @@ YOUVA documentation
    development/contribution
    development/license
 
-Testing Sphinx and Read the Docs.
+Testing Sphinx and Read the Docs...
