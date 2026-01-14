@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.8 (2026-01-14)
+
+### Bug Fixes
+
+- Update readthedocs for pip
+  ([`a7dfb9f`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/a7dfb9f9f2f25ba965508ddb812eb9f824aefc08))
+
+
 ## v0.1.7 (2026-01-14)
 
 ### Bug Fixes
