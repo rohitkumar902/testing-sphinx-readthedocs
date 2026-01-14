@@ -29,8 +29,5 @@ tag_format = "v{version}"
 branch = "main"
 commit_version_number = true
 commit_message = "chore(release): {version}"
-version_variables = [
-  "pyproject.toml:project.version"
-]
 major_on_zero = false
 
