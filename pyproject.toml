@@ -31,6 +31,8 @@ commit_version_number = true
 commit_message = "chore(release): {version}"
 major_on_zero = false
 allow_zero_major = true
-
-[tool.semantic_release.publish] 
-github = false
+upload_to_pypi = false
+upload_to_testpypi = false
+upload_to_github = true
+upload_to_gitlab = false
+upload_to_bitbucket = false
