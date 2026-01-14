@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-from importlib.metadata import version 
+from importlib.metadata import version
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
