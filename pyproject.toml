@@ -1,4 +1,4 @@
-[project]
+[project] 
 name = "youva"
 version = "0.1.5"
 description = "YOUVA project"
@@ -30,6 +30,7 @@ branch = "main"
 commit_version_number = true
 commit_message = "chore(release): {version}"
 major_on_zero = false
+allow_zero_major = true
 
 [tool.semantic_release.publish] 
 github = false
