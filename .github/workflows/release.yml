@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
-  pull-requests: write
 
 jobs:
   release:
@@ -19,14 +17,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Semantic Release
+        uses: python-semantic-release/python-semantic-release@v10.5.3
         with:
-          python-version: "3.12"
-
-      - name: Install python-semantic-release
-        run: pip install python-semantic-release
-
-      - name: Run semantic release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: semantic-release version 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
