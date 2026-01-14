@@ -2,6 +2,49 @@
 
 <!-- version list -->
 
+## v0.1.6 (2026-01-14)
+
+### Bug Fixes
+
+- Remove : for testing
+  ([`94c0681`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/94c0681e456288d27a2cb70d66675a384d999851))
+
+- Remove unnecessary whitespace in import statement
+  ([`9c7cf1e`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/9c7cf1e66b760ff7d554ea1832d5384e3844c700))
+
+- Removed tags and restrict github from publish
+  ([`789d124`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/789d124ad85620f5db4f55bb72bc9a9caa7fc591))
+
+- Testing again
+  ([`7a9c691`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/7a9c69186d899f840353403b60790c6dfcecf9b9))
+
+- Update pyproject.toml
+  ([`1dcbb05`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/1dcbb053cd6624c8099a3fac14f6154dfcce46fb))
+
+- **docs**: Test automated semantic release
+  ([`ba171a3`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/ba171a3788e9cb946799497f15b4db8b417a4237))
+
+- **docs**: Testing automated semantic release again
+  ([`965489f`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/965489f83091169bcaaed483030d5041bb9f6662))
+
+- **release**: Change semantic release command to 'version'
+  ([`a62b2d7`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/a62b2d7d6b386fbfe98a9f6871e5f3adb34c8edc))
+
+### Chores
+
+- Update permissions in release workflow and add changelog, bump version to 0.1.5 in pyproject.toml
+  ([`c12bf04`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/c12bf04b50a57046eafa5d423e31488df4fdcc44))
+
+- **release**: 1.0.0
+  ([`ca8ccc3`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/ca8ccc327a5dfd48ec2126b3e8812393c83736a7))
+
+- **release**: 1.0.1
+  ([`066245f`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/066245fae2911f29f728c887efc5a43321bb3fe7))
+
+- **release**: Fix zero-version behavior
+  ([`f1c696c`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/f1c696c2a0596c9b82b8c870fa3c80795ef31556))
+
+
 ## v1.0.1 (2026-01-14)
 
 ### Bug Fixes
