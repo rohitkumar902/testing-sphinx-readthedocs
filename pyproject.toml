@@ -31,3 +31,5 @@ commit_version_number = true
 commit_message = "chore(release): {version}"
 major_on_zero = false
 
+[tool.semantic_release.publish]
+github = false
