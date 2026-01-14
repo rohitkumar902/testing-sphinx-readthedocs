@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.1 (2026-01-14)
+
+### Bug Fixes
+
+- Remove unnecessary whitespace in import statement
+  ([`9c7cf1e`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/9c7cf1e66b760ff7d554ea1832d5384e3844c700))
+
+
 ## v1.0.0 (2026-01-14)
 
 ### Bug Fixes
