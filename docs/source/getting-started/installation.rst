@@ -1,7 +1,7 @@
 Installation
 ============
 
-Install the test package via pip:
+Install the test package via pip
 
 .. code-block:: bash
 
