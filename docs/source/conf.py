@@ -1,5 +1,6 @@
 import sys
 from pathlib import Path
+from importlib.metadata import version 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -15,8 +16,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 project = "YOUVA"
 copyright = "2026, Rohit Kumar"
 author = "Rohit Kumar"
-version = "0.1"
-release = "0.1.2"
+release = version("youva")
+version = release
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
