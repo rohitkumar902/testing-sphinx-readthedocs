@@ -2,6 +2,19 @@
 
 <!-- version list -->
 
+## v0.1.10 (2026-01-15)
+
+### Bug Fixes
+
+- Test version bump from file
+  ([`b38b89a`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/b38b89aebf5451048e4cfa1e9d3d18002fd85277))
+
+### Chores
+
+- Added version source in pyproject.toml
+  ([`980e189`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/980e1898fae7c1760b6005b6a745c89dd4821428))
+
+
 ## v0.1.9 (2026-01-15)
 
 ### Bug Fixes
