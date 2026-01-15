@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.9 (2026-01-15)
+
+### Bug Fixes
+
+- Testing PSV with new changes in pyproject.toml
+  ([`b054f5b`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/b054f5b982456942b75315044d46e053bd21e3df))
+
+
 ## v0.1.8 (2026-01-14)
 
 ### Bug Fixes
