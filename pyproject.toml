@@ -1,6 +1,6 @@
 [project] 
 name = "youva"
-version = "0.1.6"
+version = "0.1.10"
 description = "YOUVA project"
 authors = [
     { name = "Rohit Kumar" }
@@ -25,6 +25,9 @@ dev = [
 branch = "main"
 version_source = "file"
 version_variable = "pyproject.toml:project.version"
+version_toml = [
+    "pyproject.toml:project.version"
+]
 tag_format = "v{version}"
 commit_parser = "conventional"
 commit_version_number = true
