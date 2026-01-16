@@ -12,7 +12,6 @@ YOUVA documentation
 
    getting-started/introduction
    getting-started/installation
-   getting-started/usage
 
 .. toctree::
    :maxdepth: 1
