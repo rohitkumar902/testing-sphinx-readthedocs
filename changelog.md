@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.12 (2026-01-15)
+
+### Bug Fixes
+
+- Verify pyproject.toml
+  ([`eb6b4a5`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/eb6b4a5e19e1700cfa1d89672c921be11774f098))
+
+
 ## v0.1.11 (2026-01-15)
 
 ### Bug Fixes
