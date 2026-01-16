@@ -16,8 +16,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 project = "YOUVA"
 copyright = "2026, Rohit Kumar"
 author = "Rohit Kumar"
-release = version("youva")
-version = release
+release = version("youva") # Full version X.Y.Z
+version = release # Short X.Y version required for epub
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
