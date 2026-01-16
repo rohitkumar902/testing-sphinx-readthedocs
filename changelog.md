@@ -2,6 +2,27 @@
 
 <!-- version list -->
 
+## v0.1.12 (2026-01-16)
+
+### Bug Fixes
+
+- Verify pyproject.toml
+  ([`eb6b4a5`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/eb6b4a5e19e1700cfa1d89672c921be11774f098))
+
+
+## v0.1.11 (2026-01-15)
+
+### Bug Fixes
+
+- Verify pyproject.toml version bump
+  ([`33317e9`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/33317e9be41e46ab20bbd75b1b94ddc639e50aa6))
+
+### Chores
+
+- Enable semantic-release file version mutation
+  ([`a20ca90`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/a20ca900fea091bf934e3ba801b8967522a7a363))
+
+
 ## v0.1.10 (2026-01-15)
 
 ### Bug Fixes
