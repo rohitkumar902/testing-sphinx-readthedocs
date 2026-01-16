@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.1 (2026-01-16)
+
+### Bug Fixes
+
+- Correct typo in docs
+  ([`6d3a0b7`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/6d3a0b7031de4f74b726538895fcc1f2b07ed25d))
+
+
 ## v1.0.0 (2026-01-16)
 
 ### Features
