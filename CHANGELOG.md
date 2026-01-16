@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.2 (2026-01-16)
+
+### Bug Fixes
+
+- Removal of useage page
+  ([`a68b22f`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/a68b22f7992a55dae001bab4974e39e1b17f2ba0))
+
+
 ## v1.0.1 (2026-01-16)
 
 ### Bug Fixes
