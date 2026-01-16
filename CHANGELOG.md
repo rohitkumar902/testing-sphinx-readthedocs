@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.1 (2026-01-16)
+
+### Bug Fixes
+
+- Change pyproject.toml for major_on_zero = true
+  ([`4ab478a`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/4ab478afd76b0496e9dba8ca4d9e1cd4c65a5db6))
+
+
 ## v0.2.0 (2026-01-16)
 
 ### Features
