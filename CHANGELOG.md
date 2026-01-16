@@ -2,6 +2,18 @@
 
 <!-- version list -->
 
+## v1.0.0 (2026-01-16)
+
+### Features
+
+- Test major bump
+  ([`0aca087`](https://github.com/rohitkumar902/testing-sphinx-readthedocs/commit/0aca087f4026cbc033e2129de408dddf074fad70))
+
+### Breaking Changes
+
+- This is a test for major version bump
+
+
 ## v0.2.1 (2026-01-16)
 
 ### Bug Fixes
